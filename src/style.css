@@ -1,0 +1,88 @@
+body {
+    background-color: peachpuff;
+    max-width: 350px;
+    text-align: center;
+    color: cadetblue;
+    letter-spacing: 0.1rem;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    letter-spacing: 0.3rem;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: darkslategrey;
+    font-weight: bold;
+    box-shadow: cadetblue 3px 3px;
+    outline: none;
+    letter-spacing: 0.1rem;
+    width: 200px;
+}
+
+.meme {
+    width: 100%;
+    height: 350px;
+}
+
+.logo {
+    width: 100px;
+}
+
+
+.top-text{ /* top text position */
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.bottom-text { /* bot text position */
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.top-text,
+.bottom-text {
+    font-family: impact, sans-serif;
+    word-wrap: break-word;
+    line-height: 1.2em;
+    height: 2.5em; 
+    overflow: hidden; 
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
